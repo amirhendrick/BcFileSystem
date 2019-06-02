@@ -1,0 +1,222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'node@8.9.4' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData node@8.9.4
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/node
+13 verbose request uri https://registry.npmjs.org/node
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 16:34:21
+16 verbose request id 12de49689cf22b39
+17 http request GET https://registry.npmjs.org/node
+18 http 200 https://registry.npmjs.org/node
+19 verbose headers { date: 'Sat, 01 Jun 2019 19:13:25 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ '__cfduid=d3dcf75c4ef611402f31738366aebd0d31559416405; expires=Sun, 31-May-20 19:13:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+19 verbose headers   'cf-cache-status': 'HIT',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'cf-ray': '4e038134dcbdd4a8-BRU',
+19 verbose headers   etag: 'W/"62735234f12e1a8ac9c92b22e7d73018"',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   'last-modified': 'Fri, 31 May 2019 21:44:57 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'x-amz-meta-rev': '480-f656a58a5e961162113bf58656af3706',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Sat, 01 Jun 2019 19:13:25 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'set-cookie':
+20 silly get      [ '__cfduid=d3dcf75c4ef611402f31738366aebd0d31559416405; expires=Sun, 31-May-20 19:13:25 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+20 silly get     'cf-cache-status': 'HIT',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'cf-ray': '4e038134dcbdd4a8-BRU',
+20 silly get     etag: 'W/"62735234f12e1a8ac9c92b22e7d73018"',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     'last-modified': 'Fri, 31 May 2019 21:44:57 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'x-amz-meta-rev': '480-f656a58a5e961162113bf58656af3706',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving node to /home/kibo/.npm/registry.npmjs.org/node/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule node@8.9.4 checking installable status
+35 silly cache add args [ 'node@8.9.4', null ]
+36 verbose cache add spec node@8.9.4
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'node@8.9.4',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'node',
+37 silly cache add   rawSpec: '8.9.4',
+37 silly cache add   spec: '8.9.4',
+37 silly cache add   type: 'version' }
+38 silly addNamed node@8.9.4
+39 verbose addNamed "8.9.4" is a plain semver version for node
+40 silly mapToRegistry name node
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/node
+44 verbose addNameVersion registry:https://registry.npmjs.org/node not in flight; fetching
+45 verbose get https://registry.npmjs.org/node not expired, no request
+46 silly mapToRegistry name node
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/node
+50 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-8.9.4.tgz not in flight; adding
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-8.9.4.tgz',
+51 verbose addRemoteTarball   '5ab1e5ec49067a25e007e361b5f80de9dc0460fc' ]
+52 info retry fetch attempt 1 at 16:34:22
+53 info attempt registry request try #1 at 16:34:22
+54 http fetch GET https://registry.npmjs.org/node/-/node-8.9.4.tgz
+55 http fetch 200 https://registry.npmjs.org/node/-/node-8.9.4.tgz
+56 silly fetchAndShaCheck shasum 5ab1e5ec49067a25e007e361b5f80de9dc0460fc
+57 verbose addTmpTarball /tmp/npm-23320-a081776e/registry.npmjs.org/node/-/node-8.9.4.tgz not in flight; adding
+58 verbose addTmpTarball already have metadata; skipping unpack for node@8.9.4
+59 silly cache afterAdd node@8.9.4
+60 verbose afterAdd /home/kibo/.npm/node/8.9.4/package/package.json not in flight; writing
+61 verbose afterAdd /home/kibo/.npm/node/8.9.4/package/package.json written
+62 silly fetchNamedPackageData node-bin-setup
+63 silly mapToRegistry name node-bin-setup
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+67 verbose request uri https://registry.npmjs.org/node-bin-setup
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 16:34:23
+70 http request GET https://registry.npmjs.org/node-bin-setup
+71 http 200 https://registry.npmjs.org/node-bin-setup
+72 verbose headers { date: 'Sat, 01 Jun 2019 19:13:26 GMT',
+72 verbose headers   'content-type': 'application/json; charset=UTF-8',
+72 verbose headers   'transfer-encoding': 'chunked',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'set-cookie':
+72 verbose headers    [ '__cfduid=d429c672eaa724731fd60c220723dc1141559416406; expires=Sun, 31-May-20 19:13:26 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'cache-control': 'max-age=300',
+72 verbose headers   'cf-ray': '4e03813b5dfcd4a8-BRU',
+72 verbose headers   etag: 'W/"696d6ec470fda56a33885508a280edab"',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+72 verbose headers   vary: 'accept-encoding, accept',
+72 verbose headers   server: 'cloudflare',
+72 verbose headers   'content-encoding': 'gzip' }
+73 silly get cb [ 200,
+73 silly get   { date: 'Sat, 01 Jun 2019 19:13:26 GMT',
+73 silly get     'content-type': 'application/json; charset=UTF-8',
+73 silly get     'transfer-encoding': 'chunked',
+73 silly get     connection: 'keep-alive',
+73 silly get     'set-cookie':
+73 silly get      [ '__cfduid=d429c672eaa724731fd60c220723dc1141559416406; expires=Sun, 31-May-20 19:13:26 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'cache-control': 'max-age=300',
+73 silly get     'cf-ray': '4e03813b5dfcd4a8-BRU',
+73 silly get     etag: 'W/"696d6ec470fda56a33885508a280edab"',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+73 silly get     vary: 'accept-encoding, accept',
+73 silly get     server: 'cloudflare',
+73 silly get     'content-encoding': 'gzip' } ]
+74 verbose get saving node-bin-setup to /home/kibo/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+75 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+76 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+77 verbose cache add spec node-bin-setup@^1.0.0
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'node-bin-setup@^1.0.0',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'node-bin-setup',
+78 silly cache add   rawSpec: '^1.0.0',
+78 silly cache add   spec: '>=1.0.0 <2.0.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+80 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+81 silly addNameRange { name: 'node-bin-setup',
+81 silly addNameRange   range: '>=1.0.0 <2.0.0',
+81 silly addNameRange   hasData: false }
+82 silly mapToRegistry name node-bin-setup
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+86 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+87 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+88 silly addNameRange number 2 { name: 'node-bin-setup',
+88 silly addNameRange   range: '>=1.0.0 <2.0.0',
+88 silly addNameRange   hasData: true }
+89 silly addNameRange versions [ 'node-bin-setup',
+89 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+90 silly addNamed node-bin-setup@1.0.6
+91 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+92 silly mapToRegistry name node-bin-setup
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+96 verbose addRemoteTarball https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+97 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz',
+97 verbose addRemoteTarball   '4b5c9bb937ece702d7069b36ca78af4684677528' ]
+98 info retry fetch attempt 1 at 16:34:23
+99 info attempt registry request try #1 at 16:34:23
+100 http fetch GET https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+101 http fetch 200 https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+102 silly fetchAndShaCheck shasum 4b5c9bb937ece702d7069b36ca78af4684677528
+103 verbose addTmpTarball /tmp/npm-23320-a081776e/registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+104 verbose addTmpTarball already have metadata; skipping unpack for node-bin-setup@1.0.6
+105 silly cache afterAdd node-bin-setup@1.0.6
+106 verbose afterAdd /home/kibo/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+107 verbose afterAdd /home/kibo/.npm/node-bin-setup/1.0.6/package/package.json written
+108 silly loadAllDepsIntoIdealTree Finishing
+109 silly idealTree:prePrune lib
+109 silly idealTree:prePrune └─┬ node@8.9.4
+109 silly idealTree:prePrune   └── node-bin-setup@1.0.6
+110 silly loadIdealTree Finishing
+111 silly currentTree lib
+112 silly idealTree lib
+112 silly idealTree └─┬ node@8.9.4
+112 silly idealTree   └── node-bin-setup@1.0.6
+113 silly generateActionsToTake Starting
+114 silly install generateActionsToTake
+115 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+116 silly rollbackFailedOptional Starting
+117 silly rollbackFailedOptional Finishing
+118 silly runTopLevelLifecycles Starting
+119 silly runTopLevelLifecycles Finishing
+120 silly install printInstalled
+121 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+122 verbose cwd /home/kibo/Bureau/eth-ipfs
+123 error Linux 4.18.0-15-generic
+124 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "node@8.9.4"
+125 error node v8.10.0
+126 error npm  v3.5.2
+127 error path /usr/local/lib/node_modules
+128 error code EACCES
+129 error errno -13
+130 error syscall access
+131 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+131 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+131 error   errno: -13,
+131 error   code: 'EACCES',
+131 error   syscall: 'access',
+131 error   path: '/usr/local/lib/node_modules' }
+132 error Please try running this command again as root/Administrator.
+133 verbose exit [ -13, true ]
